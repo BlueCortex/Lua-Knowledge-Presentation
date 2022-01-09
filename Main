@@ -1,0 +1,67 @@
+Lua Knowledge (Starting Under this text)------
+
+Var - apple = 6
+
+apple = 7
+
+-------
+
+Func - 
+
+function addApples()
+    print(apple + apple)
+end
+
+Func(parameters and returning) -
+
+function names(p1,p2,p3)
+    p1 = "jim"
+    p2 = "kyle"
+    p3 = "robert"
+    listnames = {p1,p2,p3}
+    
+    return listnames[]
+end
+
+----
+
+Loops-
+
+while 1=1 do
+    wait(num)
+    --code
+end
+
+for 1,10,1 do
+   --execute code
+end
+
+for index,value in pairs(list) do
+    --execute code
+end
+
+repeat 
+--code
+
+until 
+--this condition is met
+
+------
+Tables-
+list = {val,val}
+
+coolVal = list[1]
+
+table.insert(list,2,val)
+
+bestVal = list[2]
+
+-------
+
+
+
+
+
+
+
+
